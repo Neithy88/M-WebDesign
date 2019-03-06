@@ -1,0 +1,16 @@
+{
+  "name": "ias-mvc-skeleton",
+  "version": "0.0.21",
+  "description": "this package contains the basic files needed for an MVC-structured website which can also be used as a Progressive Web App.",
+  "main": "service-worker.js",
+  "scripts": {
+    "clear": "mv -v * ../../ && cd ../../ && mv htaccess .htaccess && mv gitignore .gitignore && rm -r node_modules package-lock.json package.json && echo \"You're good to go! You can close this terminal now.\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandra Moullet",
+  "license": "MIT",
+  "dependencies": {
+    "composer": "^4.1.0",
+    "package.json": "^2.0.1"
+  }
+}

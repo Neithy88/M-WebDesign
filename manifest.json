@@ -1,0 +1,18 @@
+{
+    "name": "M-WebDesign",
+    "short_name": "M-WD",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "ffffff",
+    "description": "Mon portfolio de fin de formation développeur web",
+    "icons": [
+        {
+          "src": "assets/img/icon.svg",
+          "sizes": "48x48"
+        },
+        {
+          "src": "assets/img/icon256.png",
+          "sizes": "72x72 96x96 128x128 256x256 512x512"
+        }
+      ]
+}
